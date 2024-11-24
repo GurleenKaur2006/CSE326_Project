@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Name</title>
+  <link rel="stylesheet" href="first.css">
+  <style>
+      a:hover{
+        background-color:red;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="logo">Eat & Treat</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reservation">Reservation</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Welcome to Eat & Treat</h1>
+      <p>Experience the finest dishes with exquisite flavors.</p><br>
+      <a href="#menu" class="cta">Explore Menu</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="pizza.jpeg" alt="Dish 1" >
+        <h3>Margenetta Pizza</h3>
+        <p>$12.99</p>
+      </div>
+      <div class="menu-item">
+        <img src="wrap.jpeg" alt="Dish 2">
+        <h3>Veggie Wrap</h3>
+        <p>$15.99</p>
+      </div>
+      <!-- More dishes here -->
+    </div>
+  </section>
+
+  <!-- Reservation Section -->
+  <section id="reservation" class="reservation-section">
+    <h2>Make a Reservation</h2>
+    <form action="#">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <input type="date" required>
+      <input type="time" required>
+      <button type="submit">Book a Table</button>
+    </form>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p>Welcome to our restaurant! We specialize in offering a memorable dining experience with flavors from around the world.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Location: 123 Model Town,Jalandhar</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Email: contact@restaurant.com</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Eat & Treat. All rights reserved.</p>
+  </footer>
+</body>
+</html>
